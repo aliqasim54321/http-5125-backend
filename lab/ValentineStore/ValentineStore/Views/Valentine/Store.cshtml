@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Store";
+}
+
+<h2>Welcome to the product </h2>
+
+<p>@DateTime.Now.Year</p>
+
+<a href ="/Valentine/Index">Shop now</a>
+
+
+<form method="POST" action="/Valentine/Checkout">
+    <div>
+        <label for ="OrderName">
+            Name on the order:
+        </label>
+        <input type="text" name="OrderName" id="OrderName">
+    </div>
+        <label for="OrderChoclate">
+            Choclate box:
+        </label>
+        
+    <select name="OrderChocolate" id="OrderChocolate">
+        <option value="S">small $5</option>
+        <option value="M">medium $10</option>
+        <option value="L">large $15</option>
+    </select>
+    <div>
+        <input type="checkbox" name="OrderCard" id="OrderCard"/>
+        <label for="OrderCard" >this include a $5 card</label>
+     </div>
+    <div>  
+    <input type="submit" value="Order  Now" /> 
+   </div>
+    
+</form>
