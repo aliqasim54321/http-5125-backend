@@ -19,7 +19,7 @@ namespace WebApplication1.Controllers
         //GET : /Student/List
         public ActionResult List()
         {
-            StudentDataController controller = new StudentDataController();
+            StundentDataController controller = new StundentDataController();
             IEnumerable<Student> Students = controller.ListStudents();
             return View(Students);
         }
@@ -27,9 +27,8 @@ namespace WebApplication1.Controllers
         //GET : /Student/Show/{id}
         public ActionResult Show(int id)
         {
-            StudentDataController controller = new StudentDataController();
+            StundentDataController controller = new StundentDataController();
             Student NewStudent = controller.FindStudent(id);
-
 
             return View(NewStudent);
         }

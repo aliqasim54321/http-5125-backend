@@ -14,7 +14,6 @@ namespace WebApplication1.Controllers
         private SchoolDbContext School = new SchoolDbContext();
 
         [HttpGet]
-
         public IEnumerable<Student> ListStudents()
         {
             //Create an instance of a connection
@@ -27,7 +26,7 @@ namespace WebApplication1.Controllers
             MySqlCommand cmd = Conn.CreateCommand();
 
             //SQL QUERY
-            cmd.CommandText = "Select * from Students";
+            cmd.CommandText = "Select * from students";
 
             //Gather Result Set of Query into a variable
             MySqlDataReader ResultSet = cmd.ExecuteReader();
@@ -39,7 +38,7 @@ namespace WebApplication1.Controllers
             while (ResultSet.Read())
             {
                 //Access Column information by the DB column name as an index
-                int StudentId = (int)ResultSet["studentid"];
+                int StudentId = Convert.ToInt32(ResultSet["studentid"]);
                 string StudentFname = ResultSet["studentfname"].ToString();
                 string StudentLname = ResultSet["studentlname"].ToString();
                 string StudentNumber = ResultSet["studentnumber"].ToString();
@@ -89,8 +88,9 @@ namespace WebApplication1.Controllers
             MySqlCommand cmd = Conn.CreateCommand();
 
             //SQL QUERY
-            cmd.CommandText = "Select * from Students where teacherid = @id";
-            cmd.Parameters.AddWithValue("@id", id);
+            cmd.CommandText = "Select * from students where lower(studentid) = @key";
+         
+            cmd.Parameters.AddWithValue("@key", id);
             cmd.Prepare();
 
             //Gather Result Set of Query into a variable
@@ -99,14 +99,11 @@ namespace WebApplication1.Controllers
             while (ResultSet.Read())
             {
                 //Access Column information by the DB column name as an index
-                int StudentId = (int)ResultSet["studentid"];
+                int StudentId = Convert.ToInt32(ResultSet["studentid"]);
                 string StudentFname = ResultSet["studentfname"].ToString();
                 string StudentLname = ResultSet["studentlname"].ToString();
                 string StudentNumber = ResultSet["studentnumber"].ToString();
                 string EnrolDate = ResultSet["enroldate"].ToString();
-
-
-
 
                 NewStudent.StudentId = StudentId;
                 NewStudent.StudentFname = StudentFname;
@@ -120,5 +117,4 @@ namespace WebApplication1.Controllers
             return NewStudent;
         }
     }
-}
 }
