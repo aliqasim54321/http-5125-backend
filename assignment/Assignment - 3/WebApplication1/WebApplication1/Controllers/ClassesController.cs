@@ -22,7 +22,7 @@ namespace WebApplication1.Controllers
             return View(Classes);
         }
 
-        //GET : /Author/Show/{id}
+        //GET : /Classes/Show/{id}
         public ActionResult Show(int id)
         {
             ClassesDataController controller = new ClassesDataController();

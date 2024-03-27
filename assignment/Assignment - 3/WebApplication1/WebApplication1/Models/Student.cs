@@ -15,7 +15,7 @@ namespace WebApplication1.Models
         public string EnrolDate;
 
 
-        //parameter-less constructor function
+        
         public Student() { }
     }
 }

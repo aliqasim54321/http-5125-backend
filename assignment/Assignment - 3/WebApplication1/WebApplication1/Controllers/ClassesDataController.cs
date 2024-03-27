@@ -71,8 +71,8 @@ namespace WebApplication1.Controllers
         /// </summary>
         /// <param name="id">The Class ID</param>
         /// <returns>Class object containing information about the teacher with a matching ID. Empty Class Object if the ID does not match any Classes in the system.</returns>
-        /// <example>api/ClassData/FindClass/6 -> {Class Object}</example>
-        /// <example>api/ClassData/FindClass/10 -> {Class Object}</example>
+        /// <example>api/ClassData/FindClass/12 -> {Class Object}</example>
+        /// <example>api/ClassData/FindClass/3 -> {Class Object}</example>
         [HttpGet]
         public Classes FindClasses(int id)
         {

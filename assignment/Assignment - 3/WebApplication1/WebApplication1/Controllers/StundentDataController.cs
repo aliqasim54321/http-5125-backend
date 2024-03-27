@@ -67,12 +67,12 @@ namespace WebApplication1.Controllers
 
 
         /// <summary>
-        /// Finds an student from the MySQL Database through an id. Non-Deterministic.
+        /// Finds an student from the MySQL Database through an id..
         /// </summary>
         /// <param name="id">The Student ID</param>
         /// <returns>Student object containing information about the student with a matching ID. Empty Student Object if the ID does not match any Students in the system.</returns>
-        /// <example>api/StudentData/FindStudent/6 -> {Student Object}</example>
-        /// <example>api/StudentData/FindStudent/10 -> {Student Object}</example>
+        /// <example>api/StudentData/FindStudent/12 -> {Student Object}</example>
+        /// <example>api/StudentData/FindStudent/4 -> {Student Object}</example>
         [HttpGet]
         public Student FindStudent(int id)
         {

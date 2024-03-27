@@ -16,11 +16,11 @@ namespace WebApplication1.Controllers
         private SchoolDbContext School = new SchoolDbContext();
         //This Controller Will access the teachers table of our blog database.
         /// <summary>
-        /// Returns a list of Teachers in the system
+        /// Returns a list of Teachers 
         /// </summary>
         /// <example>GET api/TeacherData/ListTeachers</example>
         /// <returns>
-        /// A list of teachers (first names and last names)
+        /// A list of teachers 
         /// </returns>
         [HttpGet]
         public IEnumerable<Teacher> ListTeachers()

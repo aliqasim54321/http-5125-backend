@@ -14,7 +14,7 @@ namespace WebApplication1.Models
         public string HireDate;
         public string Salary;
 
-        //parameter-less constructor function
+       n
         public Teacher() { }
     }
 }
