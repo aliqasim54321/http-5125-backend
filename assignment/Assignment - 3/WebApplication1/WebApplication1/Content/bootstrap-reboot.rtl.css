@@ -239,8 +239,9 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+    color: var(--bs-link-color);
+    text-decoration: underline;
+    padding-top: 60px;
 }
 a:hover {
   color: var(--bs-link-hover-color);

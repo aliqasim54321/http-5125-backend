@@ -128,5 +128,62 @@ namespace WebApplication1.Controllers
             return NewTeacher;
         }
 
+
+
+        [HttpPost]
+        public void AddTeacher([FromBody] Teacher NewTeacher)
+
+        {
+            //Create an instance of a connection
+            MySqlConnection Conn = School.AccessDatabase();
+            //Open the connection between the web server and database
+            Conn.Open();
+
+            //Establish a new command (query) for our database
+            MySqlCommand cmd = Conn.CreateCommand();
+
+            //SQL QUERY
+            cmd.CommandText = "Insert into teachers(teacherfname,teacherlname,employeenumber,hiredate,salary) values (@TeacherFname,@TeacherLname,@EmployeeNumber,@HireDate,@Salary)";
+            cmd.Parameters.AddWithValue("@TeacherFname", NewTeacher.TeacherFname);
+            cmd.Parameters.AddWithValue("@TeacherLname", NewTeacher.TeacherLname);
+            cmd.Parameters.AddWithValue("@EmployeeNumber", NewTeacher.EmployeeNumber);
+            cmd.Parameters.AddWithValue("@HireDate", NewTeacher.HireDate);
+            cmd.Parameters.AddWithValue("@Salary", NewTeacher.Salary);
+            cmd.Prepare();
+
+
+            cmd.ExecuteNonQuery();
+            Conn.Close();
+
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <example>Post : /api/TeacherData/DeleteTeacher/1/</example>
+        [HttpPost]
+        public void DeleteTeacher(int id)
+
+        {
+            //Create an instance of a connection
+            MySqlConnection Conn = School.AccessDatabase();
+            //Open the connection between the web server and database
+            Conn.Open();
+
+            //Establish a new command (query) for our database
+            MySqlCommand cmd = Conn.CreateCommand();
+
+            //SQL QUERY
+            cmd.CommandText = "Delete from teachers where teacherid=@id";
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Prepare();
+
+
+            cmd.ExecuteNonQuery();
+            Conn.Close();
+
+        }
     }
 }

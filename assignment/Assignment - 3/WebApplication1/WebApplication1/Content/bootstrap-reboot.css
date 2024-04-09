@@ -128,6 +128,7 @@ h2 {
 @media (min-width: 1200px) {
   h2 {
     font-size: 2rem;
+    padding-top:60px;
   }
 }
 
@@ -238,9 +239,33 @@ sup {
   top: -0.5em;
 }
 
+nav {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.delbutton {
+    display: block;
+    margin: 0 auto;
+    background: #dd1111;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+.navlink {
+    float: right;
+    ;
+}
+
+.dellink {
+    float: left;
+    color: #dd1111;
+}
+
 a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+    color:red;
+    text-decoration: underline;
 }
 a:hover {
   color: var(--bs-link-hover-color);

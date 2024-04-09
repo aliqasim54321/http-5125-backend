@@ -254,6 +254,8 @@
     <Content Include="Views\Classes\show.cshtml" />
     <Content Include="Views\Student\list.cshtml" />
     <Content Include="Views\Student\Show.cshtml" />
+    <Content Include="Views\Teacher\New.cshtml" />
+    <Content Include="Views\Teacher\DeleteConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
