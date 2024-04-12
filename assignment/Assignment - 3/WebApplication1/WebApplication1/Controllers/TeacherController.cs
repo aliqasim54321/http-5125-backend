@@ -28,10 +28,10 @@ namespace WebApplication1.Controllers
         public ActionResult Show(int id)
         {
             TeacherDataController controller = new TeacherDataController();
-            Teacher NewTeacher = controller.FindTeacher(id);
+            Teacher SelectedTeacher = controller.FindTeacher(id);
 
 
-            return View(NewTeacher);
+            return View(SelectedTeacher);
         }
 
 
@@ -93,6 +93,35 @@ namespace WebApplication1.Controllers
             TeacherDataController controller = new TeacherDataController();
             controller.DeleteTeacher(id);
             return RedirectToAction("List");
+        }
+
+        //GET : /Teacher/Update/{id}\
+
+        public ActionResult Update(int id)
+        {
+            TeacherDataController controller = new TeacherDataController();
+            Teacher SelectedTeacher = controller.FindTeacher(id);
+
+
+            return View(SelectedTeacher);
+        }
+
+        //POST : /Teacher/Update/{id}
+        [HttpPost]
+        public ActionResult Update(int id , string TeacherFname, string TeacherLname, string EmployeeNumber, string HireDate, string Salary)
+        {
+            Teacher TeacherInfo = new Teacher();
+
+            TeacherInfo.TeacherFname = TeacherFname;
+            TeacherInfo.TeacherLname = TeacherLname;
+            TeacherInfo.EmployeeNumber = EmployeeNumber;
+            TeacherInfo.HireDate = HireDate;
+            TeacherInfo.Salary = Salary;
+
+            TeacherDataController controller = new TeacherDataController();
+            controller.UpdateTeacher(id, TeacherInfo);
+
+            return RedirectToAction("Show/" + id);
         }
     }
 }
