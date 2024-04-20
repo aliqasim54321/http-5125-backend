@@ -187,13 +187,16 @@ namespace WebApplication1.Controllers
 
         }
 
-
+        [HttpPost]
+        [Route("/api/TeacherData/UpdateTeacher")]
         public void UpdateTeacher(int id, [FromBody]Teacher TeacherInfo)
         {
             //Create an instance of a connection
             MySqlConnection Conn = School.AccessDatabase();
 
             Debug.WriteLine(TeacherInfo.TeacherFname);
+            Debug.WriteLine(TeacherInfo.HireDate);
+
             //Open the connection between the web server and database
             Conn.Open();
 
@@ -201,24 +204,17 @@ namespace WebApplication1.Controllers
             MySqlCommand cmd = Conn.CreateCommand();
 
             //SQL QUERY
-            cmd.CommandText = " Update teachers set teacherfname=@TeacherFname,teacherlname=@TeacherLname,employeenumber=@EmployeeNumber,hiredate=@HireDate,salary=@Salary where teacherid =@TeacherId ";
+            cmd.CommandText = "Update teachers set teacherfname=@TeacherFname,teacherlname=@TeacherLname,employeenumber=@EmployeeNumber,hiredate=@HireDate,salary=@Salary where teacherid=@TeacherId";
             cmd.Parameters.AddWithValue("@TeacherFname", TeacherInfo.TeacherFname);
             cmd.Parameters.AddWithValue("@TeacherLname", TeacherInfo.TeacherLname);
             cmd.Parameters.AddWithValue("@EmployeeNumber", TeacherInfo.EmployeeNumber);
-            cmd.Parameters.AddWithValue("@HireDate", TeacherInfo.HireDate);
+            cmd.Parameters.AddWithValue("@HireDate", Convert.ToDateTime(TeacherInfo.HireDate));
             cmd.Parameters.AddWithValue("@Salary", TeacherInfo.Salary);
-            cmd.Parameters.AddWithValue("@TeacherID", id);
+            cmd.Parameters.AddWithValue("@TeacherId", id);
             cmd.Prepare();
 
-
             cmd.ExecuteNonQuery();
             Conn.Close();
-
-
-            cmd.ExecuteNonQuery();
-            Conn.Close();
-
-
         }
     }
 }

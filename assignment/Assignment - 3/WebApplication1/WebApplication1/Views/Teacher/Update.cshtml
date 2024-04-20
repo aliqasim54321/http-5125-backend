@@ -11,30 +11,31 @@
 
     <h2>Update Teacher</h2>
 
-    <form method="POST" action="/Teacher/Update/@Model.TeacherId">
+    <form method="POST" onsubmit="UpdateTeacher()">
+        <input type="hidden" value="/@Model.TeacherId" id="teacherId"/>
         <div>
             <lable for="TeacherFname"> First Name: </lable>
-            <input type="text" name="TeacherFname" value="@Model.TeacherFname" />
+            <input type="text" id="TeacherFname" name="TeacherFname" value="@Model.TeacherFname" />
         </div>
 
         <div>
             <lable for="TeacherLname"> Last Name: </lable>
-            <input type="text" name="TeacherLname" value="@Model.TeacherLname" />
+            <input type="text"id="TeacherLname" name="TeacherLname" value="@Model.TeacherLname" />
         </div>
 
         <div>
             <lable for="EmployeeNumber"> Employee Number: </lable>
-            <input type="text" name="EmployeeNumber" value="@Model.EmployeeNumber" />
+            <input type="text" id="EmployeeNumber" name="EmployeeNumber" value="@Model.EmployeeNumber" />
         </div>
 
         <div>
             <lable for="HireDate"> Hire Date: </lable>
-            <input type="text" name="HireDate" value="@Model.HireDate" />
+            <input type="text" id="HireDate"  name="HireDate" value="@Model.HireDate" />
         </div>
 
         <div>
             <lable for="Salary"> Salary: </lable>
-            <input type="text" name="Salary" value="@Model.Salary" />
+            <input type="text" id="Salary" name="Salary" value="@Model.Salary" />
         </div>
 
         <div>
@@ -43,3 +44,48 @@
 
     </form>
 </div>
+
+<script>
+
+function UpdateTeacher() {
+   
+	var rq = new XMLHttpRequest();
+
+    var teacherId = document.getElementById("teacherId").value;
+    var TeacherFname = document.getElementById('TeacherFname').value;
+    var TeacherLname = document.getElementById('TeacherLname').value;
+    var TeacherEmployeenumber = document.getElementById('TeacherEmployeenumber').value;
+    var TeacherBio = document.getElementById('TeacherBio').value;
+    var TeacherSalary = document.getElementById('TeacherSalary').value;
+    var TeacherHireDate = document.getElementById('TeacherHireDate').value;
+
+    var URL = "http://localhost:57151/Teacher/Update" + teacherId;
+
+	var TeacherData = {
+        "TeacherFname": TeacherFname,
+		"TeacherLname": AuthorLname,
+        "TeacherEmployeenumber": TeacherEmployeenumber,
+        "TeacherBio": TeacherBio,
+        "TeacherSalary": TeacherSalary,
+        "TeacherHireDate": TeacherHireDate
+	};
+
+
+	rq.open("POST", URL, true);
+	rq.setRequestHeader("Content-Type", "application/json");
+	rq.onreadystatechange = function () {
+		//ready state should be 4 AND status should be 200
+		if (rq.readyState == 4 && rq.status == 200) {
+			//request is successful and the request is finished
+            alert("Added successfully");
+			//nothing to render, the method returns nothing.
+
+
+		}
+
+	}
+	//POST information sent through the .send() method
+	rq.send(JSON.stringify(TeacherData));
+
+}
+</script>

@@ -7,23 +7,27 @@
       "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\teacherdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\webapplication1\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|d:\\humber\\http-5125-backend\\assignment\\assignment - 3\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\webapplication1\\views\\teacher\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\teacher\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\webapplication1\\views\\teacher\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\teacher\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|d:\\humber\\http-5125-backend\\assignment\\assignment - 3\\webapplication1\\webapplication1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\webapplication1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|d:\\humber\\http-5125-backend\\assignment\\assignment - 3\\webapplication1\\webapplication1\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|d:\\humber\\http-5125-backend\\assignment\\assignment - 3\\webapplication1\\webapplication1\\views\\teacher\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\teacher\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|d:\\humber\\http-5125-backend\\assignment\\assignment - 3\\webapplication1\\webapplication1\\views\\teacher\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\webapplication1\\views\\teacher\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59C9C45F-4A2B-417C-863F-C2C2F1DCD014}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\teacher\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -38,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T03:38:00.46Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,14 +65,14 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TeacherDataController.cs",
               "ToolTip": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Controllers\\TeacherDataController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\TeacherDataController.cs",
-              "ViewState": "AQIAAMsAAAAAAAAAAAAAANcAAAAAAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T21:48:42.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Site.css",
               "DocumentMoniker": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Content\\Site.css",
               "RelativeDocumentMoniker": "WebApplication1\\Content\\Site.css",
@@ -63,38 +80,37 @@
               "RelativeToolTip": "WebApplication1\\Content\\Site.css",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-11T21:36:35.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T21:36:35.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TeacherController.cs",
               "DocumentMoniker": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Controllers\\TeacherController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TeacherController.cs",
               "ToolTip": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Controllers\\TeacherController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\TeacherController.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAAAG0AAAARAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwG4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T21:02:44.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "New.cshtml",
               "DocumentMoniker": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Views\\Teacher\\New.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Teacher\\New.cshtml",
               "ToolTip": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Views\\Teacher\\New.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Teacher\\New.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-08T21:29:38.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "list.cshtml",
               "DocumentMoniker": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Views\\Teacher\\list.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Teacher\\list.cshtml",
@@ -102,25 +118,24 @@
               "RelativeToolTip": "WebApplication1\\Views\\Teacher\\list.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T22:09:18.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T22:09:18.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Views\\Teacher\\Update.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Teacher\\Update.cshtml",
               "ToolTip": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Views\\Teacher\\Update.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Teacher\\Update.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-11T20:12:13.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Show.cshtml",
               "DocumentMoniker": "D:\\humber\\http-5125-backend\\assignment\\Assignment - 3\\WebApplication1\\WebApplication1\\Views\\Teacher\\Show.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Teacher\\Show.cshtml",
@@ -128,8 +143,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Teacher\\Show.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T20:56:39.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T20:56:39.079Z"
             }
           ]
         }
